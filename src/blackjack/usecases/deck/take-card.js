@@ -1,8 +1,7 @@
-
 /**
  * Takes the card on the top of the deck.
- * @param {array<string>} deck 
- * @returns {array<string>} Cards deck
+ * @param {Array<string>} deck 
+ * @returns {Array<string>} Cards deck
  */
 export const takeCard = (deck) => {
   if (!deck || !deck.length) throw 'The deck is empty.';

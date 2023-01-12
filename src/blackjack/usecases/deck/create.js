@@ -6,9 +6,9 @@ const specials = ['A', 'J', 'Q', 'K'];
 
 /**
  * Creates a new deck.
- * @returns {array<String>} returns a new deck.
+ * @returns {Array<String>} returns a new deck.
  */
-const createDeck = () => {
+export const createDeck = () => {
   //Creates the numeric cards for each card type.
   for (let i = 2; i <= 10; i++) {
     for (let type of types) {
@@ -25,5 +25,3 @@ const createDeck = () => {
 
   return shuffle(deck);
 };
-
-export default createDeck;

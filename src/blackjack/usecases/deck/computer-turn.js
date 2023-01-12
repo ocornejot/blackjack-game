@@ -1,6 +1,6 @@
-import { takeCard } from "./take-one-card";
+import { takeCard } from "./take-card";
 import { appendNewCard } from "./append-new-card";
-import { playerPointsHandler } from "./player-points-handler";
+import { playerPointsHandler } from "../deck/player-points-handler";
 
 const determineWinner = (playerPoints) => {
   const [minimumPoints, points] = playerPoints;
